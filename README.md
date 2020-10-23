@@ -5,9 +5,13 @@ Home: https://github.com/dry-python/dependencies
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dependencies-feedstock/blob/master/LICENSE.txt)
 
 Summary: Dependency Injection for Humans
+
+Development: https://github.com/dry-python/dependencies
+
+Documentation: http://dependencies.readthedocs.io/en/latest/
 
 With help of DI you can use different parts of you system independently and combine their behavior really easy.
 
