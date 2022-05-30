@@ -1,5 +1,5 @@
 {% set name = "dependencies" %}
-{% set version = "7.1.7" %}
+{% set version = "7.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 38482fdbad61024ed555e8b9bbf184c67a3ccff1a7ec98ced48f965d7c01de60
+  sha256: 8fc534bd058ddd7c1a24b9f8bc091e5569d0ae7c15e9103132e614ff3aafa3bb
 
 build:
   noarch: python
@@ -19,9 +19,9 @@ requirements:
   host:
     - pip
     - poetry
-    - python >=3.6,<3.10
+    - python >=3.6
   run:
-    - python >=3.6,<3.10
+    - python >=3.6
 
 test:
   imports:
