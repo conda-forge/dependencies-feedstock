@@ -1,5 +1,5 @@
 {% set name = "dependencies" %}
-{% set version = "7.2.0" %}
+{% set version = "7.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8fc534bd058ddd7c1a24b9f8bc091e5569d0ae7c15e9103132e614ff3aafa3bb
+  sha256: b3cd78107364507f36f5cf67b7eb73d970636a057dbbe4a2e1d0341e11db8e16
 
 build:
   noarch: python
