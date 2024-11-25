@@ -26,7 +26,7 @@ requirements:
 
 test:
   requires: 
-    - {{ python_min }}
+    - python {{ python_min }}
   imports:
     - dependencies
 
